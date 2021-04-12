@@ -6,3 +6,6 @@ def home(request):
 
 def resources(request):
     return render(request, 'resources.html')
+
+def events(request):
+    return render(request, 'events.html')

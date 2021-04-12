@@ -18,9 +18,13 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.urls import path
 from website import views
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home),
-    path("resources/", views.resources)
+    path("resources/", views.resources),
+    path("events/", views.events)
 ]
+
+urlpatterns += staticfiles_urlpatterns()
