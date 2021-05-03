@@ -1,19 +1,21 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { FaList } from 'react-icons/fa';
+
+import Navbar from './Navbar';
 import Home from '../Pages/Home';
 import Events from '../Pages/Events';
 import Resources from '../Pages/Resources';
 import Explore from '../Pages/Explore';
 import Entertainment from '../Pages/Entertainment';
-import Navbar from './Navbar';
+
+import Test from '../Pages/Test';
 
 export default class Routes extends Component {
     state = { }
     render() {
         return (
             <div className='app'>
-                <Navbar icon={<FaList />} />
+                <Navbar />
                 <Router>
                     <Switch>
                         <Route exact path='/'>
@@ -31,6 +33,11 @@ export default class Routes extends Component {
                         <Route exact path='/entertainment'>
                             <Entertainment />
                         </Route>
+
+                        <Route exact path='/test'>
+                            <Test />
+                        </Route>
+
                     </Switch>
                 </Router>
             </div>
