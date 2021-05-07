@@ -15,6 +15,7 @@ class Navbar extends Component {
                     <a href="/resources">Resources</a>
                     <a href="/explore">Explore</a>
                     <a href="/entertainment">Entertainment</a>
+                    <a href="/advice">Advice</a>
                 </div>
             </div>
         </nav>

@@ -20,7 +20,7 @@ class Home extends Component {
                     </div>
                     <div style={{padding:"40px"}}>
                         <p align="center" style={{fontSize:"30px"}}>
-                            <strong>Exec Members TEST</strong>
+                            <strong>Exec Members </strong>
                         </p>
                     </div>
 

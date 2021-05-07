@@ -6,6 +6,7 @@ import Events from '../Pages/Events';
 import Resources from '../Pages/Resources';
 import Explore from '../Pages/Explore';
 import Entertainment from '../Pages/Entertainment';
+import Advice from '../Pages/Entertainment';
 import Navbar from './Navbar';
 
 export default class Routes extends Component {
@@ -30,6 +31,9 @@ export default class Routes extends Component {
                         </Route>
                         <Route exact path='/entertainment'>
                             <Entertainment />
+                        </Route>
+                        <Route exact path='/advice'>
+                            <Advice />
                         </Route>
                     </Switch>
                 </Router>
