@@ -38,6 +38,8 @@ html { font-size: 62.5% }
     background-color: #eeeded;
 }
 
+.icon-link:hover { background-color: white !important }
+
 .home-link-text {
     color: #797878;
     font-size: 2rem;
@@ -77,10 +79,12 @@ html { font-size: 62.5% }
 
 /* HOME */
 
-/* .home {
+.bg-img {
     background-image: url("../imgs/background.png");
     background-repeat: no-repeat;
-} */
+    background-size: contain;
+    background-position: center;
+} 
 
 .home a {
     text-decoration: none;
@@ -182,7 +186,7 @@ html { font-size: 62.5% }
 .members h2,
 .social-media h2 {
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     padding-bottom: 10px;
 }
@@ -195,10 +199,21 @@ html { font-size: 62.5% }
     justify-content: center;
 }
 
-.member { text-align: center }
+.member { 
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.member div {
+    width: 100%;
+    height: 100%;
+    background-color: #b5b4b4;
+}
 
 .member a {
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
 }
 
 .social-icons {
