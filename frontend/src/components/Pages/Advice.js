@@ -68,6 +68,38 @@ class Advice extends Component {
                     </p>
                 </div>
 
+                <div style={{padding:"40px"}} >
+                    <h1>COMP110 Advice</h1>
+                    <p style = {{fontSize: "20px"}}>
+                        <strong>Who teaches this class?</strong>
+                    </p>
+                    <p style = {{fontSize: "18px"}}>
+                        Dr. Sat and Glick
+                    </p>
+                    <p style = {{fontSize: "20px"}}>
+                        <strong>What was students' favorite part about this class?</strong>
+                    </p>
+                    <p style = {{fontSize: "18px"}}>
+                        fun projects
+
+                        The projects were fun and I liked the clicker-questions during lecture. Also open-note quizzes/tests! Least favorite was the 
+                        homework because sometimes it felt like busy work although Dr. Sat made sure not to assign too much.
+
+                        Drawing my name with the python turtle module was my favorite.
+                    </p>
+                    <p style = {{fontSize: "20px"}}>
+                        <strong>What was the biggest challenge for students?</strong>
+                    </p>
+                    <p style = {{fontSize: "18px"}}>
+                        The midterm was really hard and the projects were time-consuming.
+
+                        This was my first programming class ever so it took a while to get up to speed and grasp concepts.
+                    </p>
+
+        
+                </div>
+
+
 
             </div>
         );
