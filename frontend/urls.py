@@ -7,5 +7,6 @@ urlpatterns = [
     path('resources/', index),
     path('explore/', index),
     path('entertainment/', index),
-    path('advice/', index)
+    path('advice/', index),
+    path('test/', index)
 ]

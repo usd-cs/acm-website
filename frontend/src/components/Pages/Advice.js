@@ -74,13 +74,13 @@ class Advice extends Component {
                         <strong>Who teaches this class?</strong>
                     </p>
                     <p style = {{fontSize: "18px"}}>
-                        Dr. Sat and Glick
+                        Dr. Sat and Glick.
                     </p>
                     <p style = {{fontSize: "20px"}}>
-                        <strong>What was students' favorite part about this class?</strong>
+                        <strong>What was students' favorite part about this class? Least favorite?</strong>
                     </p>
                     <p style = {{fontSize: "18px"}}>
-                        fun projects
+                        Fun projects.
 
                         The projects were fun and I liked the clicker-questions during lecture. Also open-note quizzes/tests! Least favorite was the 
                         homework because sometimes it felt like busy work although Dr. Sat made sure not to assign too much.
@@ -95,10 +95,133 @@ class Advice extends Component {
 
                         This was my first programming class ever so it took a while to get up to speed and grasp concepts.
                     </p>
+                    <p style = {{fontSize: "20px"}}>
+                        <strong>What was the workload?</strong>
+                    </p>
+                    <p style = {{fontSize: "18px"}}>
+                    Moderate.
 
+                    It was manageable but make sure to make time for the projects.
+                    </p>
+                    <p style = {{fontSize: "20px"}}>
+                        <strong>Anything else to note about this class?</strong>
+                    </p>
+                    <p style = {{fontSize: "18px"}}>
+                        If you took AP CS in high school, this class will be pretty easy.
+                    </p>
         
                 </div>
 
+                <div style={{padding:"40px"}} >
+                    <h1>COMP120 Advice</h1>
+                    <p style = {{fontSize: "20px"}}>
+                        <strong>Who teaches this class?</strong>
+                    </p>
+                    <p style = {{fontSize: "18px"}}>
+                        Dr. Glick.
+                    </p>
+                    <p style = {{fontSize: "20px"}}>
+                        <strong>What was students' favorite part about this class? Least favorite?</strong>
+                    </p>
+                    <p style = {{fontSize: "18px"}}>
+                        The projects were fun and the examples were cool. Homework was also kind of busy work too which I would say is my least favorite.
+                    </p>
+                    <p style = {{fontSize: "20px"}}>
+                        <strong>What was the biggest challenge for students?</strong>
+                    </p>
+                    <p style = {{fontSize: "18px"}}>
+                        The quizzes and tests were the biggest challenge because I personally need to work on how to study for assessments in CS.
+                    </p>
+                    <p style = {{fontSize: "20px"}}>
+                        <strong>What was the workload?</strong>
+                    </p>
+                    <p style = {{fontSize: "18px"}}>
+                    Moderate.
+
+                    It was manageable but make sure to make time for the projects.
+                    </p>
+                </div>
+
+                <div style={{padding:"40px"}} >
+                    <h1>COMP230 Advice</h1>
+                    <p style = {{fontSize: "20px"}}>
+                        <strong>Who teaches this class?</strong>
+                    </p>
+                    <p style = {{fontSize: "18px"}}>
+                        Dr. Jiang.
+                    </p>
+                    <p style = {{fontSize: "20px"}}>
+                        <strong>What was students' favorite part about this class? Least favorite?</strong>
+                    </p>
+                    <p style = {{fontSize: "18px"}}>
+                        I liked learning Java and having no homework besides projects. My least favorite was the lectures they were a bit hard to follow.
+                    </p>
+                    <p style = {{fontSize: "20px"}}>
+                        <strong>What was the biggest challenge for students?</strong>
+                    </p>
+                    <p style = {{fontSize: "18px"}}>
+                        Jiang sometimes does not understand questions from students. It takes about 2 weeks to understand his though process and way of teaching.
+
+                        Studying well for the midterm and final.
+                    </p>
+                    <p style = {{fontSize: "20px"}}>
+                        <strong>What was the workload?</strong>
+                    </p>
+                    <p style = {{fontSize: "18px"}}>
+                    Moderate.
+
+                    It was manageable.
+                    </p>
+                </div>
+
+                <div style={{padding:"40px"}} >
+                    <h1>COMP280 Advice</h1>
+                    <p style = {{fontSize: "20px"}}>
+                        <strong>Who teaches this class?</strong>
+                    </p>
+                    <p style = {{fontSize: "18px"}}>
+                        Dr. Sat.
+                    </p>
+                    <p style = {{fontSize: "20px"}}>
+                        <strong>What was students' favorite part about this class? Least favorite?</strong>
+                    </p>
+                    <p style = {{fontSize: "18px"}}>
+                        Learn SO much.
+
+                        I liked the material it was very interesting. Least favorite was the lack of study material such as a good textbook or practice problems. 
+                        Also the grading scale was quite generous but also had strange limitations because it was category based and like a check-off list rather than an overall curve.
+
+                        The binary bomb project was my favorite. truly felt like a white hat hacker in that moment.
+                    </p>
+                    <p style = {{fontSize: "20px"}}>
+                        <strong>What was the biggest challenge for students?</strong>
+                    </p>
+                    <p style = {{fontSize: "18px"}}>
+                        Workload
+
+                        The material. It is so new and unfamiliar so I had to study very hard and even then I did poorly on assessments.
+
+                        Learning C/assembly.
+                    </p>
+                    <p style = {{fontSize: "20px"}}>
+                        <strong>What was the workload?</strong>
+                    </p>
+                    <p style = {{fontSize: "18px"}}>
+                    Very heavy
+.
+                    It took up most of my time however this could be because of Fall 2020 being shorter and faster than other semesters.
+
+                    Heavy.
+                    </p>
+                    <p style = {{fontSize: "20px"}}>
+                        <strong>Anything else to note about this class?</strong>
+                    </p>
+                    <p style = {{fontSize: "18px"}}>
+                    This is a challenging course. It will take a lot of time.
+
+                    Ask for practice problems Dr. Sat will happily make them.
+                    </p>
+                </div>
 
 
             </div>
