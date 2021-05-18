@@ -7,7 +7,7 @@ import Events from '../Pages/Events';
 import Resources from '../Pages/Resources';
 import Explore from '../Pages/Explore';
 import Entertainment from '../Pages/Entertainment';
-
+import Advice from '../Pages/Advice';
 import Test from '../Pages/Test';
 
 export default class Routes extends Component {
@@ -33,7 +33,9 @@ export default class Routes extends Component {
                         <Route exact path='/entertainment'>
                             <Entertainment />
                         </Route>
-
+                        <Route exact path='/advice'>
+                            <Advice />
+                        </Route>
                         <Route exact path='/test'>
                             <Test />
                         </Route>
