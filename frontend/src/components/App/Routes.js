@@ -8,7 +8,6 @@ import Resources from '../Pages/Resources';
 import Explore from '../Pages/Explore';
 import Entertainment from '../Pages/Entertainment';
 import Advice from '../Pages/Advice';
-import Test from '../Pages/Test';
 
 export default class Routes extends Component {
     state = { }
@@ -35,9 +34,6 @@ export default class Routes extends Component {
                         </Route>
                         <Route exact path='/advice'>
                             <Advice />
-                        </Route>
-                        <Route exact path='/test'>
-                            <Test />
                         </Route>
 
                     </Switch>
