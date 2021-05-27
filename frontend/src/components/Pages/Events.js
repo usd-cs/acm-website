@@ -5,43 +5,45 @@ class Events extends Component {
     render() { 
         return (
             <div  className="events container">
-                <h1 align='center'>Events</h1>
-                <div style={{padding:"40px"}} >
-                    <p style={{fontSize:"25px"}}>
-                        <strong>Upcoming Events</strong>
+                <h1 className="events-title">EVENTS</h1>
+                <div className="events-subtitle">
+                    <p className="events-subtitle-text">
+                        <strong>UPCOMING EVENTS</strong>
                     </p>
                 </div>
 
-
-                <div style={{padding:"40px"}}>
-                    <p style={{fontSize:"25px"}}>
-                        <strong>Previous Events</strong>
+                <div className="events-subtitle">
+                    <p className="events-subtitle-text">
+                        <strong>PREVIOUS EVENTS</strong>
                     </p>
                 </div>
-                <div>
-                    <figure style={{float: "left"}}>
-                        <img src={gaming_event} height="250px" width="200px" style={{border: "1px"}} />
-                    </figure>
+                <div className="events-event">
+                    <div className="events-image-box">
+                        <figure className="events-image-figure">
+                            <img className="events-image" src={gaming_event} />
+                        </figure>
+                    </div>
+                    <div className="events-description-box">
+                        <p className="events-description">
+                            <strong>We look forward to seeing you tomorrow at our Gaming Industry Speaker Event at 1:00pm PST featuring speakers from Epic 
+                            Games, Roblox, Rockstar Games and Question Games. Take advantage of this great networking opportunity and enjoy a free lunch on us!
+                            Resources from event:   </strong>
+                        </p>
+                    </div>
                 </div>
-                <div style={{padding:"70px"}}>
-                    <p style={{verticalAlign: "middle"}}>
-                        <strong>We look forward to seeing you tomorrow at our Gaming Industry Speaker Event at 1:00pm PST featuring speakers from Epic 
-                        Games, Roblox, Rockstar Games and Question Games. Take advantage of this great networking opportunity and enjoy a free lunch on us!
-                        Resources from event:   </strong>
-                    </p>
-                </div>
-                
-                <div style={{padding:"40px"}}>
-                    <figure style={{float: "left"}}>
-                        <img src={interview_event} height="250px" width="200px" style={{border: "1px"}} />
-                    </figure>
-                </div>
-                <div style={{padding:"70px"}}>
-                    <p style={{verticalAlign: "middle"}}>
-                        <strong> ACM will be hosting another technical interview coding problem workshop this Tuesday at 1:00 PM PST. 
-                        All experience levels welcome!! Email agerami@sandiego.edu with any questions.
-                        Resources from event:   </strong>
-                    </p>
+                <div className="events-event">
+                    <div className="events-image-box">
+                        <figure className="events-image-figure">
+                            <img className="events-image" src={interview_event} />
+                        </figure>
+                    </div>
+                    <div className="events-description-box">
+                        <p className="events-description">
+                            <strong> ACM will be hosting another technical interview coding problem workshop this Tuesday at 1:00 PM PST. 
+                            All experience levels welcome!! Email agerami@sandiego.edu with any questions.
+                            Resources from event:  </strong>
+                        </p>
+                    </div>
                 </div>
             </div>
         );
