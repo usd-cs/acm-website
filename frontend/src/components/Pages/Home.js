@@ -31,13 +31,14 @@ class Home extends Component {
                         <div className="page-title">
                             <h1>Welcome to USD's Association for Computing Machinery</h1>
                         </div>
-                        <div className="bg-img"></div>
+                    </section>
+                    <section className="description">
                         <div className="acm-description" onMouseOver={this.setAnswer} onMouseLeave={this.setQuestion} onTouchEnd={this.changeDefault}>
                             <p>{acmDescription}</p>
                         </div>
                     </section>
                     <section className="members">
-                        <h2>Exec Members</h2>
+                        <h2>EXEC MEMBERS</h2>
                         <figure className="figure">
                             <div className="members-images row">
                                 <div className="member col-10 col-md-4">
@@ -73,8 +74,8 @@ class Home extends Component {
                             </div>
                         </figure>
                     </section>
-                    <div className="social-media">
-                        <h2> Social Media</h2>
+                    <section className="social-media">
+                        <h2>SOCIAL MEDIA</h2>
                         <div className="social-icons">
                             <div className="acm-ig">
                                 <i>{<FaInstagramSquare />}</i>
@@ -85,7 +86,7 @@ class Home extends Component {
                                 <a href="https://www.instagram.com/usdengineering/" target="_blank">@usdengineering</a>
                             </div>
                         </div>
-                    </div>
+                    </section>
                 </div>
         );
     }
