@@ -36,7 +36,7 @@ class Resources extends Component {
                         <a href="https://leetcode.com/">Click here to learn more!</a>
                     </p>
                     <p className="resources-section-text">
-                        Whiteboard Warriors is one of the best sources for interview practive. Collaborate with other engineers/coders to tackle interview problems.
+                        Whiteboard Warriors is one of the best sources for interview practice. Collaborate with other engineers/coders to tackle interview problems.
                         There's in person meet ups as well.
                         <a href="https://www.whiteboardwarriors.org/about">Click here to learn more!</a>
                     </p>
