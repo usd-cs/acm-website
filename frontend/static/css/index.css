@@ -321,7 +321,24 @@ h2:after {
     vertical-align: middle;
 }
 
+/* ADVICE*/
 
+.answer { 
+    transition: all .2s ease-in-out; 
+    }
+    
+.answer:hover { 
+    transform: scale(1.1);
+    color: #0182ac; 
+    }
+
+.title{
+    color:#a09165;
+}
+
+.link{
+    font-size: large
+}
 
 
 /* RESOURCES */
