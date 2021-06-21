@@ -328,18 +328,29 @@ h2:after {
     }
     
 .answer:hover { 
-    transform: scale(1.1);
+    transform: scale(1.05);
     color: #0182ac; 
     }
 
 .title{
-    color:#a09165;
+    color:#0182ac; 
+    font-weight:bold;
+    text-align:center;
 }
 
 .link{
     font-size: large
 }
 
+.titleblock{
+    background-color:#a09165;
+    height:50px
+}
+
+.sectionbreak{
+    width:500px;
+    margin:auto;
+}
 
 /* RESOURCES */
 
