@@ -4,8 +4,10 @@ class Advice extends Component {
     state = { }
     render() { 
         return (
-            <div  className="advice container">
-                <h1 class = "title" align='center'>Student Advice</h1>
+            <div  className="advicecontainer">
+                <div class = "titleblock">
+                    <h1 class = "title" align='center'>Student Advice</h1>
+                </div>
                 <div style={{padding:"40px"}} >
                     <p style={{fontSize:"20px"}}>
                         <strong>Why do CS students enjoy the major?</strong>
@@ -67,6 +69,8 @@ class Advice extends Component {
                         time and effort.
                     </p>
                 </div>
+                
+                <hr class = "sectionbreak"></hr>
 
                 <div style={{padding:"40px"}} >
                     <h1>COMP110 Advice</h1>
@@ -112,6 +116,8 @@ class Advice extends Component {
         
                 </div>
 
+                <hr class = "sectionbreak"></hr>
+
                 <div style={{padding:"40px"}} >
                     <h1>COMP120 Advice</h1>
                     <p style = {{fontSize: "20px"}}>
@@ -141,6 +147,8 @@ class Advice extends Component {
                     It was manageable but make sure to make time for the projects.
                     </p>
                 </div>
+
+                <hr class = "sectionbreak"></hr>
 
                 <div style={{padding:"40px"}} >
                     <h1>COMP230 Advice</h1>
@@ -173,6 +181,8 @@ class Advice extends Component {
                     It was manageable.
                     </p>
                 </div>
+
+                <hr class = "sectionbreak"></hr>
 
                 <div style={{padding:"40px"}} >
                     <h1>COMP280 Advice</h1>
