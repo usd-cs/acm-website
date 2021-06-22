@@ -333,7 +333,8 @@ h2:after {
     }
 
 .title{
-    color:#0182ac; 
+    color:black; 
+    padding:30px;
     font-weight:bold;
     text-align:center;
 }
@@ -343,8 +344,8 @@ h2:after {
 }
 
 .titleblock{
-    background-color:#a09165;
-    height:50px
+    height:100px;
+    background:linear-gradient(white, #0182ac);
 }
 
 .sectionbreak{
