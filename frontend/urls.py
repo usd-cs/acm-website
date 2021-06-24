@@ -8,5 +8,5 @@ urlpatterns = [
     path('explore/', index),
     path('entertainment/', index),
     path('advice/', index),
-    path('test/', index)
+    path('members/', index)
 ]
