@@ -1,0 +1,220 @@
+/* HOME */
+
+.home a {
+    text-decoration: none;
+}
+
+.welcome {
+    min-height: 85vh;
+    position: relative;
+    background-image: 
+        linear-gradient(
+            to right bottom,
+            rgba(175, 216, 233, 0.7),
+            rgba(1, 129, 172, 0.7)
+        ),
+        url('../../imgs/codeScreen.jpg');
+    background-size: cover;
+    background-position: top;
+    margin-top: 1rem;
+    background-color: #f5f5f5;
+
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-title {
+    text-transform: uppercase;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: .7rem;
+    width: 75%;
+}
+
+.page-title h1 {
+    color: #fff;
+    font-size: 4rem;
+    text-align: center;
+    line-height: 1.7;
+
+    animation: moveInTop 2s ease-out;
+}
+
+@keyframes moveInTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-10rem)
+    }
+
+    80% {
+        transform: translateY(1rem)
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0)
+    }
+}
+
+.description {
+    min-height: 40vh;
+    width: 100%;
+    background-color: #f5f5f5;
+    margin-top: -12.5rem;
+    padding: 20rem 0 0 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.acm-description {
+    border-radius: 1rem;
+    border: 2px solid rgba(1, 129, 172, 0);
+    background-color: #0182ac;
+    transition: all 2s, background-color 0s, box-shadow 0s;
+    padding: 0 !important;
+    height: 20vh;
+    overflow: hidden;
+    width: 50%;
+    box-shadow: 0 3rem 6rem rgb( 0 0 0 / .3);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.acm-description:hover {
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 40vh;
+    border: .2rem solid rgba(1, 129, 172, 1);
+    box-shadow: none;
+}
+
+.acm-description p {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #f5f5f5;
+    transition: 0s;
+    text-align: center;
+}
+
+.acm-description:hover p {
+    font-style: italic;
+    font-size: 2rem;
+    text-align: justify;
+    padding: 0 2.5rem;
+    color: #0182ac;
+}
+
+@media only screen and (max-width: 1000px) {
+    html { font-size: 57.5% }
+}
+
+@media only screen and (max-width: 800px) {
+    html { font-size: 55% }
+    .acm-description:hover p { font-size: 1.5rem }
+}
+
+@media only screen and (max-width: 600px) {
+    html { font-size: 50% }
+    .acm-description:hover p { font-size: 1.5rem }
+}
+
+.about {
+    background-color: #f5f5f5;
+    padding: 25rem 0 10rem 0;
+    margin-top: -20vh;
+}
+
+.about-text { color: #686868 }
+.about-text > * { padding: 0 1rem; }
+
+.about-paragraph {
+    font-size: 1.6rem;
+}
+.about-paragraph:not(:last-child) {
+    margin-bottom: 3rem;
+}
+
+.about-photos { transform: translateX(-1rem); }
+    
+.photos {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.photo {
+    width: 55%;
+    box-shadow: 0 1.5rem 4rem rgb(0 0 0 / 40%);
+    border-radius: 2px;
+    position: absolute;
+    z-index: 10;
+    transition: all .2s;
+    outline-offset: 2rem;
+}
+
+.p1 {
+    left: 0;
+    top: -2rem;
+}
+.p2 {
+    right: 0;
+    top: 2rem;
+}
+.p3 {
+    left: 20%;
+    top: 10rem;
+}
+
+.photo:hover {
+    outline: 1.5rem solid #0182ac;
+    transform: scale(1.05);
+    box-shadow: 0 2.5rem 4rem rgb(0 0 0 / 50%);
+    z-index: 20;
+}
+
+.photos:hover .photos:not(:hover) {
+    transform: scale(.95);
+}
+
+.social-media {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+.social-icons {
+    font-size: 2.5rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.social-icons i {
+    font-size: 4rem;
+    padding-right: 1rem;
+    color: #686868;
+}
+
+.ig { transition: all .5s }
+.ig:hover { transform: scale(1.2) }
+
+.ig-link {
+    color: #0182ac;
+    padding-bottom: 5px;
+    transition: all .2s;
+}
+
+.ig-link:hover {
+    color: #09357a;
+    border-bottom: 2px solid #83cee2;
+}

@@ -18,6 +18,7 @@ class Navbar extends Component {
                     <a href="/resources"><span className="link-text">Resources</span></a>
                     <a href="/explore"><span className="link-text">Explore</span></a>
                     <a href="/entertainment"><span className="link-text">Entertainment</span></a>
+                    <a href="/members"><span className="link-text">Members</span></a>
                 </div>
                 <a href="https://www.acm.org/" className="icon-link" target="_blank">
                     <i className="acmIcon">{<SiAcm />}</i>
