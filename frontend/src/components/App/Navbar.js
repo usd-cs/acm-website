@@ -13,6 +13,7 @@ class Navbar extends Component {
                     {<FaList />}
                 </button>
                 <div className="links collapse navbar-collapse" id="navbarNavDropdown">
+                    <a href="/advice"><span className="link-text">Advice</span></a>
                     <a href="/events"><span className="link-text">Events</span></a>
                     <a href="/resources"><span className="link-text">Resources</span></a>
                     <a href="/explore"><span className="link-text">Explore</span></a>

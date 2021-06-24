@@ -25,9 +25,3 @@ urlpatterns = [
     path('', include('frontend.urls'))
 ]
 
-# from website import views
-
-# path('', views.home),
- #   path("resources/", views.resources),
- #   path("events/", views.events),
- #   path("test/", views.test)

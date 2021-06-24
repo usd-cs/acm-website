@@ -7,8 +7,7 @@ import Events from '../Pages/Events';
 import Resources from '../Pages/Resources';
 import Explore from '../Pages/Explore';
 import Entertainment from '../Pages/Entertainment';
-
-import Test from '../Pages/Test';
+import Advice from '../Pages/Advice';
 
 export default class Routes extends Component {
     state = { }
@@ -33,9 +32,8 @@ export default class Routes extends Component {
                         <Route exact path='/entertainment'>
                             <Entertainment />
                         </Route>
-
-                        <Route exact path='/test'>
-                            <Test />
+                        <Route exact path='/advice'>
+                            <Advice />
                         </Route>
 
                     </Switch>
