@@ -79,7 +79,6 @@ h2:hover { text-shadow: .5rem 1rem 2rem rgba(#000, .2) }
 }
 .btn-text:hover {
     background-color: #0182ac;
-<<<<<<< HEAD
     transition: 2s;
     padding: 0 !important;
     height: 20vh;
@@ -264,11 +263,6 @@ h2:hover { text-shadow: .5rem 1rem 2rem rgba(#000, .2) }
 
 .resources-section-title {
     font-size: 30px;
-=======
-    color: #fff;
-    box-shadow: 0 1rem 2rem rgba(#000, .15);
-    transform: translateY(-2px);
->>>>>>> gui/ReactIntegration
 }
 .btn-text:active {
     box-shadow: 0 .5rem 1rem rgba(#000, .15);
