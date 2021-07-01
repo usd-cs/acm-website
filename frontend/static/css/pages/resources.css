@@ -1,13 +1,36 @@
 /* RESOURCES */
 
-.resources-title {
-    text-align: center;
+.resources-container
+{
+    position:absolute;
+    left:120px;
+    right:120px;
+    background-color:#eee;
 }
+
 
 .resources-section-title {
     font-size: 30px;
+    color:#09357a;
+    text-transform:capitalize;
+    text-align:center;
+    position:relative;
 }
 
+
 .resources-section-text {
-    font-size: 15px;
+    font-size: 20px;
+    color:white;
+    font-style:italic;
+    text-align:center;
+    transition: all .2s ease-in-out; 
+}
+
+.resources-section-text:hover{
+    transform:scale(1.05);
+    color:black;
+}
+
+.resources-section{
+    background-color:  #83cee2;
 }
