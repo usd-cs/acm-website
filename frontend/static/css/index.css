@@ -15,6 +15,7 @@ Background Gray: #f5f5f5
 
 @import "navbar.css";
 
+@import "pages/advice.css";
 @import "pages/events.css";
 @import "pages/home.css";
 @import "pages/members.css";
@@ -50,10 +51,14 @@ h2 {
     -webkit-background-clip: text;
     color: transparent;
     letter-spacing: 2px;
-    transition: all .2s;
+    transform: scale(1);
+    transition: all .5s;
 }
 
-h2:hover { text-shadow: .5rem 1rem 2rem rgba(#000, .2) }
+h2:hover {
+    transform: scale(1.2);
+    letter-spacing: 0.8rem;
+}
 
 .section-title {
     margin-bottom: 8rem;
@@ -61,7 +66,7 @@ h2:hover { text-shadow: .5rem 1rem 2rem rgba(#000, .2) }
 }
 
 .tertiary-heading {
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 1.5rem;
@@ -79,198 +84,13 @@ h2:hover { text-shadow: .5rem 1rem 2rem rgba(#000, .2) }
 }
 .btn-text:hover {
     background-color: #0182ac;
-<<<<<<< HEAD
-    transition: 2s;
-    padding: 0 !important;
-    height: 20vh;
-    overflow: hidden;
-    width: 50%;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.acm-description:hover {
-    background-color: white;
-    width: 100%;
-    height: 40vh;
-    border: .2rem solid rgba(1, 129, 172, 1);
-}
-
-.acm-description p {
-    font-size: 3rem;
-    font-weight: bold;
     color: white;
-    transition: 0s;
-    text-align: center;
-}
-
-.acm-description:hover p {
-    font-style: italic;
-    font-size: 2rem;
-    text-align: justify;
-    padding: 0 2.5rem;
-    color: #0182ac;
-}
-
-.members {
-    min-height: 85vh;
-}
-
-.figure {
-    width: 100%;
-}
-
-.members h2,
-.social-media h2 {
-    text-align: center;
-    font-size: 4rem;
-    font-weight: bold;
-    padding-bottom: 1rem;
-}
-
-.members-images {
-    width: 100%;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.member { 
-    text-align: center;
-    padding-bottom: 2rem;
-}
-
-
-.member div {
-    width: 100%;
-    height: 100%;
-    background-color: #a09165 /*#b5b4b4*/;
-}
-
-.member a {
-    font-size: 2rem;
-    font-weight: bold;
-    color: white;
-}
-
-@media only screen and (max-width: 1000px) {
-    html { font-size: 57.5% }
-}
-
-@media only screen and (max-width: 800px) {
-    html { font-size: 55% }
-    .acm-description:hover p { font-size: 1.5rem }
-}
-
-@media only screen and (max-width: 600px) {
-    html { font-size: 50% }
-    .acm-description:hover p { font-size: 1.5rem }
-}
-
-.social-icons {
-    font-size: 2.5rem;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.social-icons i {
-    font-size: 4rem;
-    padding-right: 1rem;
-}
-
-
-
-
-/* EVENTS */
-
-.events-title {
-    text-align: center;
-}
-
-.events-subtitle {
-    padding: 40px;
-}
-
-.events-subtitle-text {
-    font-size: 25px;
-}
-
-.events-image-box {
-    height: 20vh;
-    width: 25vw;
-    padding: 40px;
-}
-
-.events-image-figure {
-    float: left;
-}
-
-.events-image {
-    height: 100%;
-    width: 100%;
-    border: 1px;
-}
-
-.events-description-box {
-    padding: 70px;
-}
-
-.events-description {
-    vertical-align: middle;
-}
-
-/* ADVICE*/
-
-.answer { 
-    transition: all .2s ease-in-out; 
-    }
-    
-.answer:hover { 
-    transform: scale(1.05);
-    color: #0182ac; 
-    }
-
-.title{
-    color:black; 
-    padding:30px;
-    font-weight:bold;
-    text-align:center;
-}
-
-.link{
-    font-size: large
-}
-
-.titleblock{
-    height:100px;
-    background:linear-gradient(white, #0182ac);
-}
-
-.sectionbreak{
-    width:500px;
-    margin:auto;
-}
-
-/* RESOURCES */
-
-.resources-title {
-    text-align: center;
-}
-
-.resources-section-title {
-    font-size: 30px;
-=======
-    color: #fff;
-    box-shadow: 0 1rem 2rem rgba(#000, .15);
+    box-shadow: 0 1rem 2rem rgba(0 0 0, 15%);
     transform: translateY(-2px);
->>>>>>> gui/ReactIntegration
+    transition: .4s;
 }
+
 .btn-text:active {
-    box-shadow: 0 .5rem 1rem rgba(#000, .15);
+    box-shadow: 0 .5rem 1rem rgba(0 0 0, 15%);
     transform: translateY(0);
 }
