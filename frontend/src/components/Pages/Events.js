@@ -1,50 +1,137 @@
 import React, { Component } from 'react';
 
 class Events extends Component {
-    state = { }
-    render() { 
+    state = {
+        imageOneClicked: false,
+        imageTwoClicked: false,
+        imageThreeClicked: false
+    }
+
+    toggleImageOne = () => this.setState({ imageOneClicked: !this.state.imageOneClicked })
+    toggleImageTwo = () => this.setState({ imageTwoClicked: !this.state.imageTwoClicked })
+    toggleImageThree = () => this.setState({ imageThreeClicked: !this.state.imageThreeClicked })
+
+
+    render() {
+        const { imageOneClicked, imageTwoClicked, imageThreeClicked } = this.state;
+
         return (
             <div  className="events container">
-                <h1 className="events-title">EVENTS</h1>
-                <div className="events-subtitle">
-                    <p className="events-subtitle-text">
-                        <strong>UPCOMING EVENTS</strong>
-                    </p>
+                <div className="events-title">
+                    <h1 className="events-title-text">EVENTS</h1>
                 </div>
 
-                <div className="events-subtitle">
-                    <p className="events-subtitle-text">
-                        <strong>PREVIOUS EVENTS</strong>
-                    </p>
+                <div className="all-events">
+               
+                    <div className="events-box">
+                        <div className="events-subtitle">
+                            <h2 className="events-subtitle-text">Upcoming events</h2>
+                        </div>
+
+                        <div className="events-event" id="eventOne">
+                            <div className="events-image-box">
+                                <img className="events-image" src={gaming_event} onClick={this.toggleImageOne} />
+                            </div>
+                            <div className="events-description-box">
+                                <h3 className="tertiary-heading">Gaming industry event</h3>
+                                <p className="events-description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                    Leo urna molestie at elementum. Mi quis hendrerit dolor magna eget est lorem ipsum dolor. Adipiscing tristique risus nec feugiat in fermentum.
+                                    Orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero. Risus nullam eget felis eget nunc lobortis mattis. 
+                                    Sed arcu non odio euismod lacinia. Quis blandit turpis cursus in. Scelerisque eleifend donec pretium vulputate sapien nec. 
+                                    Velit sed ullamcorper morbi tincidunt ornare massa eget. Fames ac turpis egestas sed tempus urna et pharetra. Arcu cursus euismod quis viverra 
+                                    nibh cras pulvinar mattis.
+                                    Purus ut faucibus pulvinar elementum integer enim neque volutpat. Duis ultricies lacus sed turpis tincidunt. 
+                                    Ullamcorper a lacus vestibulum sed. Mi ipsum faucibus vitae aliquet nec ullamcorper sit. 
+                                    Scelerisque viverra mauris in aliquam sem fringilla. Vitae tortor condimentum lacinia quis vel eros donec. 
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="events-event" id="eventTwo">
+                            <div className="events-image-box">
+                                <figure className="events-image-figure">
+                                    <img className="events-image" src={interview_event} onClick={this.toggleImageTwo} />
+                                </figure>
+                            </div>
+                            <div className="events-description-box">
+                                <h3 className="tertiary-heading">Technical interview coding practice</h3>
+                                <p className="events-description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                    Leo urna molestie at elementum. Mi quis hendrerit dolor magna eget est lorem ipsum dolor. Adipiscing tristique risus nec feugiat in fermentum.
+                                    Orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero. Risus nullam eget felis eget nunc lobortis mattis. 
+                                    Sed arcu non odio euismod lacinia. Quis blandit turpis cursus in. Scelerisque eleifend donec pretium vulputate sapien nec. 
+                                    Velit sed ullamcorper morbi tincidunt ornare massa eget. Fames ac turpis egestas sed tempus urna et pharetra. Arcu cursus euismod quis viverra 
+                                    nibh cras pulvinar mattis.
+                                    Purus ut faucibus pulvinar elementum integer enim neque volutpat. Duis ultricies lacus sed turpis tincidunt. 
+                                    Ullamcorper a lacus vestibulum sed. Mi ipsum faucibus vitae aliquet nec ullamcorper sit. 
+                                    Scelerisque viverra mauris in aliquam sem fringilla. Vitae tortor condimentum lacinia quis vel eros donec.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    {
+                        imageOneClicked 
+                        ? <div className="popup">
+                            <div className="popup-img-box">
+                                <img src={gaming_event} />
+                            </div>
+                            <a href="#eventOne" class="close-popup" onClick={this.toggleImageOne}>&times;</a>
+                        </div>
+                        : " "
+                    }
+                    {
+                        imageTwoClicked 
+                        ? <div className="popup">
+                            <div className="popup-img-box">
+                                <img src={interview_event} />
+                            </div>
+                            <a href="#eventTwo" class="close-popup" onClick={this.toggleImageTwo}>&times;</a>
+                        </div>
+                        : " "
+                    }
+
+                    <div className="events-box">
+                        <div className="events-subtitle">
+                            <h2 className="events-subtitle-text">Previous events</h2>
+                        </div>
+                        <div className="events-event" id="eventThree">
+                            <div className="events-image-box">
+                                <figure className="events-image-figure">
+                                    <img className="events-image" src={interview_event} onClick={this.toggleImageThree}/>
+                                </figure>
+                            </div>
+                            <div className="events-description-box">
+                                <h3 className="tertiary-heading">Technical interview coding practice</h3>
+                                <p className="events-description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                    Leo urna molestie at elementum. Mi quis hendrerit dolor magna eget est lorem ipsum dolor. Adipiscing tristique risus nec feugiat in fermentum.
+                                    Orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero. Risus nullam eget felis eget nunc lobortis mattis. 
+                                    Sed arcu non odio euismod lacinia. Quis blandit turpis cursus in. Scelerisque eleifend donec pretium vulputate sapien nec. 
+                                    Velit sed ullamcorper morbi tincidunt ornare massa eget. Fames ac turpis egestas sed tempus urna et pharetra. Arcu cursus euismod quis viverra 
+                                    nibh cras pulvinar mattis.
+                                    Purus ut faucibus pulvinar elementum integer enim neque volutpat. Duis ultricies lacus sed turpis tincidunt. 
+                                    Ullamcorper a lacus vestibulum sed. Mi ipsum faucibus vitae aliquet nec ullamcorper sit. 
+                                    Scelerisque viverra mauris in aliquam sem fringilla. Vitae tortor condimentum lacinia quis vel eros donec.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    {
+                        imageThreeClicked 
+                        ? <div className="popup">
+                            <div className="popup-img-box">
+                                <img src={interview_event} />
+                            </div>
+                            <a href="#eventThree" class="close-popup" onClick={this.toggleImageThree}>&times;</a>
+                        </div>
+                        : " "
+                    }
+
                 </div>
-                <div className="events-event">
-                    <div className="events-image-box">
-                        <figure className="events-image-figure">
-                            <img className="events-image" src={gaming_event} />
-                        </figure>
-                    </div>
-                    <div className="events-description-box">
-                        <p className="events-description">
-                            <strong>We look forward to seeing you tomorrow at our Gaming Industry Speaker Event at 1:00pm PST featuring speakers from Epic 
-                            Games, Roblox, Rockstar Games and Question Games. Take advantage of this great networking opportunity and enjoy a free lunch on us!
-                            Resources from event:   </strong>
-                        </p>
-                    </div>
-                </div>
-                <div className="events-event">
-                    <div className="events-image-box">
-                        <figure className="events-image-figure">
-                            <img className="events-image" src={interview_event} />
-                        </figure>
-                    </div>
-                    <div className="events-description-box">
-                        <p className="events-description">
-                            <strong> ACM will be hosting another technical interview coding problem workshop this Tuesday at 1:00 PM PST. 
-                            All experience levels welcome!! Email agerami@sandiego.edu with any questions.
-                            Resources from event:  </strong>
-                        </p>
-                    </div>
-                </div>
+
             </div>
         );
     }
