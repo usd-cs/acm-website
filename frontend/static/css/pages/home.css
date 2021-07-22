@@ -113,20 +113,6 @@
     color: #0182ac;
 }
 
-@media only screen and (max-width: 1000px) {
-    html { font-size: 57.5% }
-}
-
-@media only screen and (max-width: 800px) {
-    html { font-size: 55% }
-    .acm-description:hover p { font-size: 1.5rem }
-}
-
-@media only screen and (max-width: 600px) {
-    html { font-size: 50% }
-    .acm-description:hover p { font-size: 1.5rem }
-}
-
 .about {
     background-color: #f5f5f5;
     padding: 25rem 0 10rem 0;
@@ -217,4 +203,39 @@
 .ig-link:hover {
     color: #09357a;
     border-bottom: 2px solid #83cee2;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1000px) {
+    .photos {
+        transform: translate(10%, 15%);
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .acm-description:hover p { font-size: 1.5rem }
+}
+
+@media only screen and (max-width: 770px) {
+    .photos {
+        transform: translate(10%, 15%);
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .photos {
+        transform: translate(0, 0);
+        margin-top: 5rem;
+        text-align: center;
+    }
+    .photo {
+        min-height: 10rem;
+        position: initial;
+        margin-bottom: 3rem;
+    }
+    .photo:last-of-type {
+        margin-bottom: 0;
+    }
 }

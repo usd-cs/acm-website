@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 
+let imageOne = gaming_event
+let imageTwo = interview_event
+let imageThree = interview_event
+
 class Events extends Component {
     state = {
         imageOneClicked: false,
@@ -30,7 +34,7 @@ class Events extends Component {
 
                         <div className="events-event" id="eventOne">
                             <div className="events-image-box">
-                                <img className="events-image" src={gaming_event} onClick={this.toggleImageOne} />
+                                <img className="events-image" src={imageOne} onClick={this.toggleImageOne} />
                             </div>
                             <div className="events-description-box">
                                 <h3 className="tertiary-heading">Gaming industry event</h3>
@@ -51,7 +55,7 @@ class Events extends Component {
                         <div className="events-event" id="eventTwo">
                             <div className="events-image-box">
                                 <figure className="events-image-figure">
-                                    <img className="events-image" src={interview_event} onClick={this.toggleImageTwo} />
+                                    <img className="events-image" src={imageTwo} onClick={this.toggleImageTwo} />
                                 </figure>
                             </div>
                             <div className="events-description-box">
@@ -75,7 +79,7 @@ class Events extends Component {
                         imageOneClicked 
                         ? <div className="popup">
                             <div className="popup-img-box">
-                                <img src={gaming_event} />
+                                <img src={imageOne} />
                             </div>
                             <a href="#eventOne" class="close-popup" onClick={this.toggleImageOne}>&times;</a>
                         </div>
@@ -85,7 +89,7 @@ class Events extends Component {
                         imageTwoClicked 
                         ? <div className="popup">
                             <div className="popup-img-box">
-                                <img src={interview_event} />
+                                <img src={imageTwo} />
                             </div>
                             <a href="#eventTwo" class="close-popup" onClick={this.toggleImageTwo}>&times;</a>
                         </div>
@@ -99,7 +103,7 @@ class Events extends Component {
                         <div className="events-event" id="eventThree">
                             <div className="events-image-box">
                                 <figure className="events-image-figure">
-                                    <img className="events-image" src={interview_event} onClick={this.toggleImageThree}/>
+                                    <img className="events-image" src={imageThree} onClick={this.toggleImageThree}/>
                                 </figure>
                             </div>
                             <div className="events-description-box">
@@ -123,7 +127,7 @@ class Events extends Component {
                         imageThreeClicked 
                         ? <div className="popup">
                             <div className="popup-img-box">
-                                <img src={interview_event} />
+                                <img src={imageThree} />
                             </div>
                             <a href="#eventThree" class="close-popup" onClick={this.toggleImageThree}>&times;</a>
                         </div>

@@ -95,3 +95,31 @@ h2:hover {
     box-shadow: 0 .5rem 1rem rgba(0 0 0, 15%);
     transform: translateY(0);
 }
+
+/* hides random white space on right side of the screen on DevTools phone screen-size */
+html, body {
+    overflow-x: hidden;
+}
+
+
+/* MEDIA QUERIES */
+
+
+@media screen and (max-width: 1000px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    html {
+        font-size: 45%;
+    }
+}
+
