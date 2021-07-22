@@ -104,11 +104,6 @@ html, body {
 
 /* MEDIA QUERIES */
 
-/* 
-BREAKPOINTS:
-- 570px
-- 770px
-- 1000px */
 
 @media screen and (max-width: 1000px) {
     html {

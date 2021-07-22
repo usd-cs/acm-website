@@ -11,7 +11,7 @@
 
 .title{
     color:black; 
-    padding:30px;
+    padding: 3rem;
     font-weight:bold;
     text-align:center;
 }
@@ -21,11 +21,11 @@
 }
 
 .titleblock{
-    height:100px;
+    height: 10rem;
     background:linear-gradient(white, #0182ac);
 }
 
 .sectionbreak{
-    width:500px;
+    width: 50rem;
     margin:auto;
 }

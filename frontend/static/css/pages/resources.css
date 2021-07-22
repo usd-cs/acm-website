@@ -1,14 +1,13 @@
 /* RESOURCES */
 
-.resources-container
-{
+.resources-container {
     margin: 3rem 12rem;
     background-color: #eee;
 }
 
 
 .resources-section-title {
-    font-size: 30px;
+    font-size: 3rem;
     color:#09357a;
     text-transform:capitalize;
     text-align:center;
@@ -17,7 +16,7 @@
 
 
 .resources-section-text {
-    font-size: 20px;
+    font-size: 2rem;
     color:white;
     font-style:italic;
     text-align:center;
@@ -31,4 +30,13 @@
 
 .resources-section{
     background-color:  #83cee2;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 550px) {
+    .resources-container {
+        margin: 3rem 6rem;
+    }
 }
