@@ -127,11 +127,12 @@
     }
 
     .events-image-box {
-        width: 45%;
+        width: 50%;
     }
 
     .events-image {
-        min-height: 50vh;
+        min-height: 40vh;
+        height: auto;
     }
 }
 
