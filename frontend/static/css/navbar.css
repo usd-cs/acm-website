@@ -22,13 +22,7 @@
 
 .icon-link:hover { background-color: white !important }
 
-.home-link-text {
-    color: #797878;
-    font-size: 2rem;
-    padding: 0 2rem;
-}
-
-.link-text {
+.link-text, .home-link-text {
     color: #797878;
     font-size: 2rem;
     padding: 0 3rem;
@@ -56,4 +50,25 @@
     
     display: flex;
     justify-content: center;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 800px) {
+    .acmIcon {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .link-text, .home-link-text {
+        font-size: 1.8rem;
+        padding: 0 2rem;
+    }
+
+    span:last-of-type {
+        padding: 0 1rem;
+    }
 }

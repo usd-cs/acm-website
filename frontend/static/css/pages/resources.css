@@ -2,10 +2,8 @@
 
 .resources-container
 {
-    position:absolute;
-    left:120px;
-    right:120px;
-    background-color:#eee;
+    margin: 3rem 12rem;
+    background-color: #eee;
 }
 
 

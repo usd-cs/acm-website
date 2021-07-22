@@ -47,7 +47,7 @@ class Home extends Component {
                             <h2>[Title goes here]</h2>
                         </div>
                         <div className="row">
-                            <div className="col-6 about-text">
+                            <div className="col-sm-6 about-text"> 
                                 <h3 className="tertiary-heading">[Title goes here]</h3>
                                 <p className="about-paragraph">
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia molestias dolor quisquam temporibus, laborum eius veniam illum voluptatibus tempora molestiae officia magnam ad vero? Fuga vitae error minima porro assumenda.
@@ -60,7 +60,7 @@ class Home extends Component {
 
                                 <div><a href="#" className="btn-text">[LINK HERE] &rarr;</a></div>
                             </div>
-                            <div className="col-6 about-photos">
+                            <div className="col-sm-6 about-photos">
                                 <div className="photos">
                                     <img src={group_img1} alt="Photo 1" className="photo p1" />
                                     <img src={group_img2} alt="Photo 2" className="photo p2" />
