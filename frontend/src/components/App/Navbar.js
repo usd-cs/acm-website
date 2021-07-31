@@ -16,7 +16,6 @@ class Navbar extends Component {
                     <a href="/advice"><span className="link-text">Advice</span></a>
                     <a href="/events"><span className="link-text">Events</span></a>
                     <a href="/resources"><span className="link-text">Resources</span></a>
-                    <a href="/explore"><span className="link-text">Explore</span></a>
                     <a href="/entertainment"><span className="link-text">Entertainment</span></a>
                     <a href="/members"><span className="link-text">Members</span></a>
                 </div>

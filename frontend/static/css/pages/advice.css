@@ -1,0 +1,31 @@
+/* ADVICE*/
+
+.answer { 
+    transition: all .2s ease-in-out; 
+    }
+    
+.answer:hover { 
+    transform: scale(1.05);
+    color: #0182ac; 
+    }
+
+.title{
+    color:black; 
+    padding:30px;
+    font-weight:bold;
+    text-align:center;
+}
+
+.link{
+    font-size: large
+}
+
+.titleblock{
+    height:100px;
+    background:linear-gradient(white, #0182ac);
+}
+
+.sectionbreak{
+    width:500px;
+    margin:auto;
+}
