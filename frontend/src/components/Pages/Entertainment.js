@@ -4,8 +4,7 @@ class Entertainment extends Component {
     state = { }
     render() { 
         return (
-            <div  className="entertainment container">
-                <h1>ENTERTAINMENT PAGE</h1>
+            <div className="entertainment container">
                 <h1 align='center'>Entertainment Page</h1>
                 <div style={{padding:"40px"}} >
                     <p style={{fontSize:"20px"}}>
@@ -49,7 +48,7 @@ class Entertainment extends Component {
 
                     <a href="https://www.npr.org/podcasts/510313/how-i-built-this">How I Built This with Guy Raz</a>
 
-                    </div>
+                </div>
             </div>
         );
     }
