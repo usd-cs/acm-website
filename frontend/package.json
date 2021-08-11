@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://Rylee2000.github.io/usd-cs/acm-website",
+  "homepage": "https://usd-cs.github.io/acm-website/",
   "scripts": {
     "dev": "webpack --mode development --watch",
     "start": "react-scripts start",
