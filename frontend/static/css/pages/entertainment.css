@@ -37,9 +37,14 @@
 .ent-more-title {
     display: block;
     text-align: center;
+    padding-bottom: 2rem;
 }
 
-.ent-more-list {
-    font-size: 150%;
+.ent-more-list li {
+    font-size: 200%;
     padding-left: 25rem;
+}
+
+.ent-more-list li a {
+    color: #0182ac;
 }

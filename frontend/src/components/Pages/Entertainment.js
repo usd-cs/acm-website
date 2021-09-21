@@ -65,10 +65,10 @@ class Entertainment extends Component {
                             <h2>Tech News</h2>
                         </div>
                         <ul className="ent-more-list">
-                            <li><a href="https://www.theverge.com/" target="_blank">The Verge</a></li>
-                            <li><a href="https://techcrunch.com/" target="_blank">Tech Crunch</a></li>
-                            <li><a href="https://gizmodo.com/" target="_blank">Gizmodo</a></li>
-                            <li><a href="https://thenextweb.com/" target="_blank">The Next Web</a></li>
+                            <li><a href="https://www.theverge.com/" target="_blank">The Verge</a> - Tech / Science</li>
+                            <li><a href="https://techcrunch.com/" target="_blank">Tech Crunch</a> - Tech / Startups</li>
+                            <li><a href="https://gizmodo.com/" target="_blank">Gizmodo</a> - Tech / Science / Design</li>
+                            <li><a href="https://thenextweb.com/" target="_blank">The Next Web</a> - Tech / Startups</li>
                         </ul>
                     </div>
 
@@ -77,11 +77,11 @@ class Entertainment extends Component {
                             <h2>Tech Podcasts</h2>
                         </div>
                         <ul className="ent-more-list">
-                            <li><a href="https://www.npr.org/podcasts/510313/how-i-built-this" target="_blank">How I Built This with Guy Raz</a></li>
-                            <li><a href="https://softwareengineeringdaily.com/" target="_blank">Software Engineering Daily</a></li>
-                            <li><a href="https://changelog.com/podcast/" target="_blank">Changelog</a></li>
-                            <li><a href="https://developertea.com/" target="_blank">Developer Tea</a></li>
-                            <li><a href="https://www.codingblocks.net/" target="_blank">Coding Blocks</a></li>
+                            <li><a href="https://www.npr.org/podcasts/510313/how-i-built-this" target="_blank">How I Built This with Guy Raz</a> - entrepreneurship</li>
+                            <li><a href="https://softwareengineeringdaily.com/" target="_blank">Software Engineering Daily</a> - all software engineering</li>
+                            <li><a href="https://changelog.com/podcast/" target="_blank">Changelog</a> - open source software</li>
+                            <li><a href="https://developertea.com/" target="_blank">Developer Tea</a> - short episodes, wide range of topics</li>
+                            <li><a href="https://www.codingblocks.net/" target="_blank">Coding Blocks</a> - design patterns / OOP / database implementation</li>
                         </ul>
                     </div>
                     
