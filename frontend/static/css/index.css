@@ -14,8 +14,10 @@ Background Gray: #f5f5f5
 */
 
 @import "navbar.css";
+@import "footer.css";
 
 @import "pages/advice.css";
+@import "pages/entertainment.css";
 @import "pages/events.css";
 @import "pages/home.css";
 @import "pages/members.css";

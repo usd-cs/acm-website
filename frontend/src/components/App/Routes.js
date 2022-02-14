@@ -8,6 +8,7 @@ import Resources from '../Pages/Resources';
 import Entertainment from '../Pages/Entertainment';
 import Advice from '../Pages/Advice';
 import Members from '../Pages/Members';
+import Footer from './Footer';
 
 export default class Routes extends Component {
     state = { }
@@ -38,6 +39,7 @@ export default class Routes extends Component {
 
                     </Switch>
                 </Router>
+                <Footer />
             </div>
         )
     }

@@ -45,6 +45,11 @@
     color: #686868;
 }
 
+.member__subtitle {
+    font-weight: bold;
+    color: #0182ac;
+}
+
 .member-img__caption {
     position: absolute;
     top: 50%;
