@@ -1,2 +1,2 @@
 release: python manage.py migrate
-web: gunicorn acm-website.wsgi
+web: gunicorn acm-website.wsgi --log-file -
