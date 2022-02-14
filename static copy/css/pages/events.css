@@ -1,0 +1,149 @@
+/* EVENTS */
+
+.events-title {
+    text-align: center;
+    padding: 1rem 0 5rem 0;
+}
+
+.events-title-text {
+    font-size: 7rem;
+    color: #fff;
+    -webkit-text-stroke: 1rem #0182ac;
+    letter-spacing: 1.2rem;
+}
+
+.events-box {
+    padding-bottom: 5rem;
+}
+
+.events-subtitle {
+    padding-bottom: 2rem;
+}
+
+.events-event {
+    position: relative;
+    display: inline-block;
+    padding: 4rem 0;
+    border-bottom: 1px solid black;
+}
+
+.events-box .events-event:last-of-type {
+    border: none;
+}
+
+.events-image-box {
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+
+.events-image {
+    height: 50vh;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.events-image:hover {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 50%);
+    transform: translate(2%, -2%);
+}
+
+.events-description-box {
+    width: 70%;
+    float: right;
+}
+
+.events-description {
+    font-size: 1.4rem;
+    line-height: 2.3rem;
+}
+
+
+/* POPUP */
+
+.popup {
+    position: fixed;
+    z-index: 1000;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.popup-img-box {
+    height: 75vh;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.close-popup {
+    color: #999;
+    transition: all .2s;
+}
+
+.close-popup:link,
+.close-popup:link:visited {
+    position: absolute;
+    right: 5rem;
+    float: right;
+    text-decoration: none;
+    font-size: 5rem;
+}
+
+.close-popup:hover {
+    color: #fff;
+    transform: scale(1.3);
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 995px) {
+    .events-event {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .events-image-box {
+        margin: 0 5rem;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .events-event {
+        flex-direction: column-reverse;
+    }
+
+    .events-description-box {
+        width: 100%;
+        padding-bottom: 3rem;
+    }
+
+    .events-image-box {
+        width: 50%;
+    }
+
+    .events-image {
+        min-height: 40vh;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .events-subtitle {
+        text-align: center;
+        padding-bottom: 0;
+    }
+
+    .events-description-box {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}

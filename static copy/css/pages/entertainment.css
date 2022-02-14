@@ -1,0 +1,50 @@
+/* ENTERTAINMENT */
+
+.entertainment a { text-decoration: none }
+.entertainment li { list-style-type: none }
+
+.entertainment-videos h2 { margin-top: 2rem }
+
+.entertainment-videos,
+.entertainment-more {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.yt-channel {
+    padding: 4rem;
+}
+
+.yt-channel h3 {
+    padding-bottom: 2rem;
+}
+
+.yt-channel a { color: #83cee2 }
+
+.yt-channel a:hover {
+    color: #0182ac;
+    border-bottom: 1px solid #83cee2;
+}
+
+.tech-news,
+.tech-podcasts {
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+.ent-more-title {
+    display: block;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.ent-more-list li {
+    font-size: 200%;
+    padding-left: 25rem;
+}
+
+.ent-more-list li a {
+    color: #0182ac;
+}
