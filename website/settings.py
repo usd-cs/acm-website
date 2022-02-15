@@ -123,5 +123,5 @@ STATIC_URL = '/ static /'
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR,'static'),
-    '/acm-website/frontend/static/',
+    '/acm-website/frontend/static/'
 )
