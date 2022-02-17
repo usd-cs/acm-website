@@ -1,6 +1,6 @@
 # acm-website
 
-Visit it at usd-acm-website.herokuapp.com
+Visit it at https://usd-acm-website.herokuapp.com/
 
 Website for USD's ACM Club
 
