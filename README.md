@@ -1,4 +1,7 @@
 # acm-website
+
+Visit it at usd-acm-website.herokuapp.com
+
 Website for USD's ACM Club
 
 to run:
